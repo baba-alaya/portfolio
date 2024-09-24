@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  user-select: none;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.flex-75 {
+  flex: 0.90 1 0%;
+}
+
+.flex-25 {
+  flex: 0.1 1 0%;
+}
+
+.flex-30 {
+  flex: 0.3 1 0%;
+}
+
+body {
+  background-color: rgb(25, 25, 25);
+  /* background-color: rgba(0, 0, 0, 0.2); */
+}
