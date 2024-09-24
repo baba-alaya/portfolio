@@ -33,7 +33,7 @@ function EachProject({ work }) {
           alt=""
         />
       </div>
-      <div className="  flex justify-end align-center flex-col sm:flex-1 sm:flex pb-0 sm:gap-3 pb-24 lg:pb-20 xl:pb-24  ">
+      <div className="  flex justify-end align-center flex-col sm:flex-1 sm:flex pb-0 sm:gap-3 sm:pb-24 lg:pb-20 xl:pb-24  ">
         <p className="py-2  float-right text-xl lg:text-2xl ">{work.text}</p>
         <div className="flex justify-between  sm:justify-between lg:justify-start lg:gap-10  ">
           <p>{work.page}</p>
