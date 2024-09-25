@@ -1,10 +1,13 @@
-import { children } from "react";
-import { ActiveContext } from "../context/ActiveProvider";
-import { useContext } from "react";
+import Content from "./Content";
+import Navigation from "./Navigation";
 
-function Hero({ children }) {
-  
-  return <div className="font-serif h-auto flex flex-col ">{children}</div>;
+function Hero() {
+  return (
+    <div className="font-serif bg-pink-400">
+      <Navigation />
+      <Content />
+    </div>
+  );
 }
 
 export default Hero;

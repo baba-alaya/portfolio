@@ -1,4 +1,3 @@
-import Hero from "../components/Hero";
 import Projects from "../components/Projects";
 import PageNav from "../components/PageNav";
 import Content from "../components/Content";
@@ -9,14 +8,12 @@ import Footer from "../components/Footer";
 function Home() {
   return (
     <div className=" text-white max-w-[1600px] p-2 m-auto">
-        <Hero>
-          <Navigation />
-          <Content />
-        </Hero>
-        <Projects />
-        <Marque/>
-        <Footer/>
-        <PageNav />
+      <Navigation />
+      <Content />
+      <Projects />
+      <Marque />
+      <Footer />
+      <PageNav />
     </div>
   );
 }

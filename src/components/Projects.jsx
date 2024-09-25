@@ -1,15 +1,15 @@
 import EachProject from "./EachProject";
-import finbalance from '../assets/finbalance.png'
-import zenfit from '../assets/zenfit.png'
-import urbanthreads from '../assets/urbanthreads.png'
-import swifttech from '../assets/swifttech.png'
-import cashguard from '../assets/cashguard.png'
-import greenleaf from '../assets/greenleaf1.png'
+import finbalance from "../assets/finbalance.png";
+import zenfit from "../assets/zenfit.png";
+import urbanthreads from "../assets/urbanthreads.png";
+import swifttech from "../assets/swifttech.png";
+import cashguard from "../assets/cashguard.png";
+import greenleaf from "../assets/greenleaf1.png";
 
 function Projects() {
   const works = [
     {
-        image: swifttech,
+      image: swifttech,
       num: "001",
       page: "Landing Page",
       title: "SwiftTech",
@@ -18,7 +18,7 @@ function Projects() {
       link: "https://sirheritage-40dd2.web.app/",
     },
     {
-        image: finbalance,
+      image: finbalance,
       num: "002",
       page: "Finance",
       title: "FinBalance",
@@ -28,7 +28,7 @@ function Projects() {
       link: "https://glitters.vercel.app/",
     },
     {
-        image: urbanthreads,
+      image: urbanthreads,
       num: "003",
       page: "E-commerce",
       title: "UrbanThreads",
@@ -37,7 +37,7 @@ function Projects() {
       link: "https://mishaay-beads.vercel.app/",
     },
     {
-        image: cashguard,
+      image: cashguard,
       num: "004",
       page: "Finance",
       title: "CashGuard",
@@ -47,17 +47,17 @@ function Projects() {
       link: "https://mishaay-beads.vercel.app/",
     },
     {
-        image: greenleaf,
+      image: greenleaf,
       num: "005",
       page: "E-commerce ",
       title: "GreenLeaf",
-     
-      text: "A clean, engaging landing page for a nutrition brand promoting organic supplements and driving email sign-ups with a free eBook on healthy living and wellness tips.",
+
+      text: "An organic skincare and beauty store focused on natural ingredients, featuring a detailed product catalog, secure payment options, and a subscription box service for recurring customers.",
       site: "View live site",
       link: "https://mishaay-beads.vercel.app/",
     },
     {
-        image: zenfit,
+      image: zenfit,
       num: "006",
       page: "Landing Page ",
       title: "ZenFit",

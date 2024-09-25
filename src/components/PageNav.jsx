@@ -18,7 +18,7 @@ function PageNav() {
       <div
         className={` ${
           state ? " block" : "hidden"
-        } space-y-10 lg:space-y-7 lg:text-9xl  sm:text-8xl text-7xl font-light  `}
+        } space-y-10 lg:space-y-7 lg:text-9xl  sm:text-8xl text-7xl font-light  b `}
       >
         <Link to="/" onClick={HandleClick} className="block w-fit text m-auto ">
           <span className="text-sm pr-1">(1)</span>Home

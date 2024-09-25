@@ -1,4 +1,4 @@
-import { children, createContext, useState } from "react";
+import {createContext, useState } from "react";
 
 export const ActiveContext = createContext(false);
 
@@ -16,7 +16,7 @@ function ActiveProvider({ children }) {
     }
   }
   return (
-    <ActiveContext.Provider value={{ state, toggleActive ,about:true }}>
+    <ActiveContext.Provider value={{ state, toggleActive, about: true }}>
       {children}
     </ActiveContext.Provider>
   );

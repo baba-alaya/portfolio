@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import hero from "../assets/hero.jpg";
+import arrow from "../assets/arrow.svg";
 
 function EachProject({ work }) {
   return (
@@ -37,7 +37,13 @@ function EachProject({ work }) {
         <p className="py-2  float-right text-xl lg:text-2xl ">{work.text}</p>
         <div className="flex justify-between  sm:justify-between lg:justify-start lg:gap-10  ">
           <p>{work.page}</p>
-          <Link to={work.link}>{work.site}</Link>
+          <div
+            className="flex
+          "
+          >
+            <Link to={work.link}>{work.site} </Link>
+            <img src={arrow} alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -45,4 +51,3 @@ function EachProject({ work }) {
 }
 
 export default EachProject;
-// lg:right-96
